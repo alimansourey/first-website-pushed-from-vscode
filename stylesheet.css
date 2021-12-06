@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    background:blue;
+
+}
+h1{
+    color : white;
+    width:max-content;
+    margin : auto;
+}
+div {
+    width : 40% ;
+    height : 10vh;
+    background : red;
+    margin:5px auto;
+}
+div#div1{
+    background : linear-gradient(90deg,red 20%, tomato 40%, pink 80%);
+}
+div#div2{
+    background : linear-gradient(90deg,lightblue 20%, yellow 40%, purple 80%);
+}
+div#div3{
+    background : linear-gradient(90deg,gold 20%, silver 40%, black 80%);
+}
+div#div4{
+    background : linear-gradient(90deg,cyan 20%, green 40%, brown 80%);
+}
